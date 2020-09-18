@@ -14,7 +14,8 @@ int main(){
         // cout<<"n = "<<n<<endl;
         vector<ull> arr(n);
         for(ull i=0; i<n; i++) cin>>arr[i];
-
+        for(auto i : are) cout<<i<<" ";
+        cout<<"hello/n"
         vector<pair<ull, ull>> margins;
         for(ull i=0; i<n; i++) margins.push_back({0,0});
         stack<pair<ull, ull>> sl, sr;
